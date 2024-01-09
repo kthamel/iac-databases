@@ -1,17 +1,17 @@
 variable "cidr_block_vpc" {
-  description = "Allocated Storage for Database"
-  default     = "172.16.0.0/16"
+  description = "CIDR block for VPC"
+  default     = "172.100.0.0/16"
   type        = string
 }
 
 variable "kthamel-rds-subnet-0" {
-  description = "Allocated Storage for Database"
-  default     = "172.16.1.0/24"
+  description = "CIDR block for subnet 0"
+  default     = "172.100.0.0/24"
   type        = string
 }
 
 variable "kthamel-rds-subnet-1" {
-  description = "Allocated Storage for Database"
-  default     = "172.16.2.0/24"
+  description = "CIDR block for subnet 1"
+  default     = "172.100.1.0/24"
   type        = string
 }
