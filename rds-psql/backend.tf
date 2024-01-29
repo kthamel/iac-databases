@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "kthamel-vault-ec2-deployment"
+    bucket = "kthamel-rds-postgres"
     key    = "demo-vpc-tfstate"
     region = "us-east-1"
   }
